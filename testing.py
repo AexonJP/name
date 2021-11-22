@@ -1,4 +1,4 @@
- def load():
+def load():
     import pickle
     return pickle.load(open("schedule.dat1", "rb") )
 
